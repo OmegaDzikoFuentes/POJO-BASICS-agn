@@ -1,5 +1,5 @@
 /***********************************************************************
-Write a function called `keysInObject(obj)` that takes in an object and returns 
+Write a function called `keysInObject(obj)` that takes in an object and returns
 an array of all the keys within that Object.
 
 Do this once using using a `for...in` loop and once using `Object.keys`.
@@ -13,7 +13,11 @@ keysInObject(foods); // => ["apple", "lemon", "mango"]
 ***********************************************************************/
 
 function keysInObject(obj) {
-  // Your code here 
+
+  //create empty array
+  //loop through obj
+  //send key to array
+  //return array
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
