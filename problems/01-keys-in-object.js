@@ -12,7 +12,7 @@ keysInObject(animals); // => ["dog", "cat", "bison"]
 keysInObject(foods); // => ["apple", "lemon", "mango"]
 ***********************************************************************/
 
-function keysInObject(obj) {
+/*function keysInObject(obj) {
 
   //create empty array
   let ansArr = [];
@@ -27,7 +27,21 @@ function keysInObject(obj) {
 
   //return array
   return ansArr;
-  
+
+}*/
+let keysInObject = (obj) => {
+
+   //create an empty array
+   let ansArr = [];
+
+  //use obj.kys and frEch to loop through obj
+  Object.keys(obj).forEach((key) => {
+
+    ansArr.push(key);
+
+  });
+
+  return ansArr;
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
